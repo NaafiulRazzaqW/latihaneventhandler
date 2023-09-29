@@ -3,11 +3,27 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Toolbar from './buttontest';
+import Toolbar1 from './eventhandlersasprops';
+import ButtonTest from './eventhandlernaming';
+import Babi from './eventhandlersasprops';
+import Toolbar2 from './Eventpropagation';
+import Toolbar3 from './Stoppingpropagation';
+import Signup from './testsendbutton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Toolbar/>
+     <Toolbar1/>
+    <ButtonTest/>
+    <Toolbar2/>
+    <Toolbar3/>
+    <Signup/>
+
+
+
   </React.StrictMode>
 );
 
